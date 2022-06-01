@@ -1,0 +1,243 @@
+body {
+  margin: 0%;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.navbar ul{
+  width: 100%;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+ li{
+  float: left;
+
+  }
+.navbar li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+
+}
+.navbar li a:hover {
+  background-color: #111;
+}
+.LoginForm{
+  display: flex;
+  color: red;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  float: right;
+
+}
+.login_li {
+  float: right;
+}
+.login_li_user {
+  float: right;
+  display: flex;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+}
+
+.navbar li a:active {
+  background-color: #04AA6D;
+}
+
+.SearchBar {
+  background-color: #15172b;
+  border-radius: 0px;
+  box-sizing: border-box;
+  padding: 20px;
+  width: 100%;
+  height: 220px;
+  margin: auto;
+  text-align: center;
+}
+.SearchBar input, .SearchBar select {
+  background-color: #303245;
+  border-radius: 12px;
+  border: 0;
+  box-sizing: border-box;
+  color: #eee;
+  font-size: 18px;
+  height: 100%;
+  outline: 0;
+  padding: 4px 10px 0;
+
+  width: 200px;
+  height: 50px;
+  margin-right: 10px;
+  float: left;
+}
+
+.title {
+  color: #eee;
+  font-family: sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 0px;
+  text-align: left;
+}
+.subtitle {
+  color: #eee;
+  font-family: sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  margin-top: 5px;
+  text-align: left;
+}
+/*.SearchBar button {
+  background-color: #08d;
+  border-radius: 12px;
+  border: 0;
+  color: #eee;
+  cursor: pointer;
+  font-size: 18px;
+  height: 50px;
+  width: 200px;
+  float: left;
+  display: inline-block;
+
+  outline: 0;
+  text-align: center;
+}*/
+
+.SearchBar button:active {
+  background-color: green;
+}
+.SearchBar button {
+  float: left;
+  text-align: center;
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  width: 200px;
+  height: 50px;
+  clear: right;
+  padding: 4px 10px 0;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 10px;
+}
+.sort select{
+  float: left;
+}
+.sort{
+
+margin-top: 10px;
+  clear: left;
+  display: flex;
+  color: white;
+  float: left;
+}
+.BeerTable{
+  margin: auto;
+}
+
+
+.BeerPageInfo{
+  text-align: center;
+  background-color: aliceblue;
+  width: 80%;
+  float: right;
+  margin-top: 50px;
+  margin-right: 50px;
+  border-radius: 50px;
+}
+.BeerPageInfo p ,.BeerPageInfo h3{
+  text-align: left;
+  margin-left: 2em;
+}
+.BeerPageInfo h3 {
+
+  margin-left:3em;
+}
+.BeerRating{
+  float: left;
+  background-color: aliceblue;
+  position: sticky;
+  margin-top: 50px;
+  border-radius: 10px;
+  margin-left: 10px;
+  width: 15%;
+  text-align: center;
+  vertical-align: center;
+
+}
+.BeerRating span {
+  color: red;
+}
+ .button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+.form-style-5{
+  max-width: 500px;
+  padding: 10px 20px;
+  background: #f4f7f8;
+  margin: 10px auto;
+  padding: 20px;
+  background: #f4f7f8;
+  border-radius: 8px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.form-style-5 fieldset{
+  border: none;
+}
+.form-style-5 legend {
+  font-size: 1.4em;
+  margin-bottom: 10px;
+}
+.form-style-5 label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+
+table {
+  clear: left;
+  background-color: aliceblue;
+  border-radius: 8px;
+  padding: 5px;
+
+  width: 80%;
+  border-collapse: collapse;
+  text-align: center;
+  overflow: hidden;
+}
+
+th{
+  border: 2px solid dimgray;
+  padding: 10px;
+}
+
+td{
+  padding: 10px ;
+  border: 2px solid gray;
+}
+
+th{
+  background-color: #4ECDC4;
+}
