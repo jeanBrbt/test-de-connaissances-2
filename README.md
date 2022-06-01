@@ -8,6 +8,11 @@ j'ai retiré les fichiers node modules il faudrat donc faire npm install dans le
 
 la config pour la bdd du serveur node js se trouve dans le dossier config  et la bdd dans le dossier "bdd"
 
+
+
+
+--------------------------------------
+
 consignes : 
 
 Le but de ce mini projet est d'utiliser l'API https://punkapi.com/ pour se créer sa bibliothèque de bière.
